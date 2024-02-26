@@ -9,4 +9,4 @@ __Descripcion__
 
 cosas
 
-![alt text](image.png)
+![alt text](out/clases/clases.png)
