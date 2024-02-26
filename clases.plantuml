@@ -3,7 +3,14 @@ instrumento <|-- guitarra
 instrumento <|-- saxo
 instrumento <|-- tiple
 
-musico o-- instrumento
-banda o-- musico
+musico *-- instrumento
+banda *-- musico
+
+instrumento:afinar()
+instrumento:tocar()
+musico:instrumento
+musico:afinar_instrumento()
+musico:tocar_instrumento()
+
 @enduml
 
