@@ -1,0 +1,9 @@
+@startuml
+instrumento <|-- guitarra
+instrumento <|-- saxo
+instrumento <|-- tiple
+
+musico o-- instrumento
+banda o-- musico
+@enduml
+
